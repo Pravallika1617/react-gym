@@ -1,0 +1,73 @@
+.registration-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .registration-page .success-message {
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #d0e9c6;
+    color: var(--primary-color);
+    width: 500px;
+  }
+  
+  .registration-page .success-message button{
+    background: var(--primary-color);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .registration-page h1 {
+    margin-bottom: 50px;
+    color: var(--primary-color);
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .registration-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-page .form-group {
+    margin-bottom: 25px;
+  }
+  
+  .registration-page label {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .registration-page input[type="text"],
+  .registration-page input[type="email"],
+  .registration-page input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-page button[type="submit"] {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .registration-page button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
